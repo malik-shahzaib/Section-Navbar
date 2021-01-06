@@ -3,10 +3,583 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Practice</title>
+
+     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
 </head>
 <body>
-    <h1>Shahzib</h1>
-    <h2>zebi</h2>
-    <h3>Malik Zebi</h3>
+	 <h1>Html Practice</h1>
+    <p>The pre tag preserves both spaces and line breaks:</p>
+
+	<pre>
+	   My Bonnie lies over the ocean.
+
+	   My Bonnie lies over the sea.
+
+	   My Bonnie lies over the ocean.
+	   
+	   Oh, bring back my Bonnie to me.
+	</pre>
+	<!-- font  -->
+	<h1 style="font-family:verdana;">This is a heading</h1>
+	<p style="font-family:courier;">This is a paragraph.</p>
+
+		<h3>Change the default colors of links</h3>
+	<a href="https://malik-shahzaib.github.io/frontend/">My Website Link</a>
+
+	<h2>Floating Images</h2>
+		<p><strong>Float the image to the right:</strong></p>
+
+		<p>
+		<img src="assets/images/smiley.gif" alt="Smiley face">
+		A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.
+		</p>
+
+		<p><strong>Float the image to the left:</strong></p>
+		<p>
+		<img  src="assets/images/smiley.gif" alt="Smiley face" class="float-right">
+		A paragraph with a floating image. A paragraph with a floating image. A paragraph with a floating image.  
+		</p>
+
+		      <h2>Styling Tables</h2>
+
+			<table>
+			  <tr>
+			    <th>Firstname</th>
+			    <th>Lastname</th> 
+			    <th>Age</th>
+			  </tr>
+			  <tr>
+			    <td>Jill</td>
+			    <td>Smith</td>
+			    <td>50</td>
+			  </tr>
+			  <tr>
+			    <td>Eve</td>
+			    <td>Jackson</td>
+			    <td>94</td>
+			  </tr>
+			  <tr>
+			    <td>John</td>
+			    <td>Doe</td>
+			    <td>80</td>
+			  </tr>
+			</table>
+			<br>
+
+			<table id="t01">
+			  <tr>
+			    <th>Firstname</th>
+			    <th>Lastname</th> 
+			    <th>Age</th>
+			  </tr>
+			  <tr>
+			    <td>Jill</td>
+			    <td>Smith</td>
+			    <td>50</td>
+			  </tr>
+			  <tr>
+			    <td>Eve</td>
+			    <td>Jackson</td>
+			    <td>94</td>
+			  </tr>
+			  <tr>
+			    <td>John</td>
+			    <td>Doe</td>
+			    <td>80</td>
+			  </tr>
+			</table>
+
+			<!--  Float Layout -->
+
+	<div class="float-layout">
+		<h2 style="text-align: center;">Float Layout</h2>
+			<header>
+			  <h2>Cities</h2>
+			</header>
+
+			<section>
+			  <nav>
+			    <ul>
+			      <li><a href="#">London</a></li>
+			      <li><a href="#">Paris</a></li>
+			      <li><a href="#">Tokyo</a></li>
+			    </ul>
+			  </nav>
+			  
+			  <article>
+			    <h1>London</h1>
+			    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+			    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+			  </article>
+			</section>
+
+			<footer>
+			  <p>Footer</p>
+			</footer>
+
+	</div>
+
+
+	<!-- Flexbox Layout -->
+
+	<div class="Flexbox-Layout">
+		<h2 style="text-align: center;">Flexbox-Layout</h2>
+			<header>
+			  <h2>Cities</h2>
+			</header>
+
+			<section>
+			  <nav>
+			    <ul>
+			      <li><a href="#">London</a></li>
+			      <li><a href="#">Paris</a></li>
+			      <li><a href="#">Tokyo</a></li>
+			    </ul>
+			  </nav>
+			  
+			  <article>
+			    <h1>London</h1>
+			    <p>London is the capital city of England. It is the most populous city in the  United Kingdom, with a metropolitan area of over 13 million inhabitants.</p>
+			    <p>Standing on the River Thames, London has been a major settlement for two millennia, its history going back to its founding by the Romans, who named it Londinium.</p>
+			  </article>
+			</section>
+				</div>	
+
+
+					<!-- Media Queries -->
+					<div class="media-q">
+						<h2 style="text-align: center;">Media Queries</h2>
+
+
+					<div class="left">
+					  <p>Left Menu</p>
+					</div>
+
+					<div class="main">
+					  <p>Main Content</p>
+					</div>
+
+					<div class="right">
+					  <p>Right Content</p>
+					</div>
+					</div>
+
+
+					<!-- Form -->
+					<div class="form-radio">
+						<h2 style="text-align: center;">Radio Buttons</h2>
+
+					<form style="text-align: center;">
+					  <input type="radio" id="male" name="gender" value="male">
+					  <label for="male">Male</label><br>
+					  <input type="radio" id="female" name="gender" value="female">
+					  <label for="female">Female</label><br>
+					  <input type="radio" id="other" name="gender" value="other">
+					  <label for="other">Other</label>
+					</form>
+					</div>
+
+					<!-- field set forn -->
+					<div class="field-set ">
+					<form action="">
+					  <fieldset>
+					    <legend>Personalia:</legend>
+					    <label for="fname">First name:</label><br>
+					    <input type="text" id="fname" name="fname" value="John"><br>
+					    <label for="lname">Last name:</label><br>
+					    <input type="text" id="lname" name="lname" value="Doe"><br><br>
+					    <input type="submit" value="Submit">
+					  </fieldset>
+					</form>
+					</div>	
+
+
+					<!-- Date  -->
+					<div class="date">
+						<h1>The input min and max attributes</h1>
+
+					<p>The min and max attributes specify the minimum and maximum values for an input element.</p>
+
+					<form action="">
+					  <label for="datemax">Enter a date before 1980-01-01:</label>
+					  <input type="date" id="datemax" name="datemax" max="1979-12-31"><br><br>
+
+					  <label for="datemin">Enter a date after 2000-01-01:</label>
+					  <input type="date" id="datemin" name="datemin" min="2000-01-02"><br><br>
+					  
+					  <label for="quantity">Quantity (between 1 and 5):</label>
+					  <input type="number" id="quantity" name="quantity" min="1" max="5"><br><br>
+
+					  <input type="submit" value="Submit">
+					</form>
+
+					</div>
+
+					<!--  background-repeat -->
+					<!-- <div class="bg-repeat">
+					<h1>Hello World!</h1>
+					<p>Here, a background image is repeated only horizontally!</p>
+					</div> -->
+
+					<!-- borders -->
+					<div class="borders">
+						<h2 style="text-align: center;">Border Style </h2>
+						<h4>Dotted border</h4>
+						<p class="dotted">A dotted border.</p>
+						<h4>Dashed border</h4>
+						<p class="dashed">A dashed border.</p>
+						<h4>Solid border</h4>
+						<p class="solid">A solid border.</p>
+						<h4>Double border</h4>
+						<p class="double">A double border.</p>
+						<h4>Groove border</h4>
+						<p class="groove">A groove border.</p>
+						<h4>Ridge border</h4>
+						<p class="ridge">A ridge border.</p>
+						<h4>Inset border</h4>
+						<p class="inset">An inset border.</p>
+						<h4>Outset border</h4>
+						<p class="outset">An outset border.</p>
+						<h4>No border</h4>
+						<p class="none">No border.</p>
+						<h4>Hidden border</h4>
+						<p class="hidden">A hidden border.</p>
+						<h4>Mixed border</h4>
+						<p class="mix">A mixed border.</p>
+
+						<h2 style="text-align: center;">Color-border</h2>
+						<p class="one">A solid red border</p>
+						<p class="two">A solid green border</p>
+						<p class="three">A dotted blue border</p
+							>
+						<h2 style="text-align: center;"> Full color border</h2>
+						<p class="full-color">This property is a shorthand property for border-width, border-style, and border-color.</p>
+
+						<h2 style="text-align: center;">Left-border</h2>
+						<p class="Left-color">This property is a shorthand property for border-left-width, border-left-style, and border-left-color.</p>
+
+						<h2 style="text-align: center;">Border-bottom</h2>
+						<p class="Border-bottom">This property is a shorthand property for border-bottom-width, border-bottom-style, and border-bottom-color.</p>
+
+						<h2 style="text-align: center;">Right-border</h2>
+						<p class="Right-border">This property is a shorthand property for border-left-width, border-left-style, and border-left-color.</p>
+
+
+						<h2  style="text-align: center;" >Border-radius Property</h2>
+						<p>This property is used to add rounded borders to an element:</p>
+
+						<p class="normal">Normal border</p>
+						<p class="round1">Round border</p>
+						<p class="round2">Rounder border</p>
+						<p class="round3">Roundest border</p>
+
+
+					</div>
+
+					<!-- Margins Area -->
+					
+						<h2>Margin Property</h2>
+						<div class="margin22">
+						<p class="ex1">This paragraph has an inherited left margin (from the div element).</p>
+						</div>
+
+						<h2>Auto Margin</h2>
+						<div class="auto-margin1">
+						This div will be horizontally centered because it has margin: auto;
+						</div>
+
+						<h2>Individual margin propertie</h2>
+						<div class="Individual-margin">This div element has a top margin of 100px, a right margin of 150px, a bottom margin of 100px, and a left margin of 80px.</div>
+
+
+						<!-- Padding Area -->
+						<h2>Padding </h2>
+
+						<div class="paddinng">
+							<p>This div element has a top padding of 50px, a right padding of 30px, a bottom padding of 50px, and a left padding of 80px.</p>
+						</div>
+
+						<div class="pad" ><p>The width of this div remains at 300px, in spite of the 50px of total left and right padding, because of the box-sizing: border-box property.</p></div>
+
+						<!-- box-model -->
+
+						<h2>Box Model</h2>
+						<div class="border-model">
+							This text is the content of the box. We have added a 50px padding, 20px margin and a 15px green border. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+						</div>
+
+
+						<!-- outline-width Property -->
+						<h2>Outline-width Property</h2>
+						<p class="exa1">A thin outline.</p>
+						<p class="exa2">A medium outline.</p>
+						<p class="exa3">A thick outline.</p>
+						<p class="exa4">A 4px thick outline.</p>
+
+						<h2>Outline Offset</h2>
+						<div class="outline-ofset">
+							<p>This paragraph has an outline of 15px outside the border edge.</p>
+						</div>
+
+						<!-- text shadow -->
+						<h2>Text shadow</h2>
+						<div class="text-shadow">
+							<h1>Text-shadow effect!</h1>
+							<h2>Text-shadow effect!</h2>
+							<h3>Text-shadow effect!</h3>
+						</div>
+
+						<!-- font-family -->
+						<h2>Font-family</h2>
+						<p class="p11">This is a paragraph, shown in the Times New Roman font.</p>
+						<p class="p22">This is a paragraph, shown in the Arial font.</p>
+						<p class="p33">This is a paragraph, shown in the Lucida Console font.</p>
+
+						<!-- position Property -->
+						<h2>Position Property</h2>
+
+						<h3>Static</h3>
+						<div class="static">
+						  This div element has position: static;
+						</div>
+
+						<h3>Relative</h3>
+
+						<!-- <div class="relative">
+							This div element has position: relative;
+						</div> -->
+
+						<h3>Fixed-Position</h3>
+						<div class="fixed">
+							This div element has position: fixed;
+						</div> <br>
+
+						<h3>absolute</h3>
+						<div class="relative">This div element has position: relative;
+					    <div class="absolute">This div element has position: absolute;</div>
+                        </div>
+
+
+                        <!-- Over Flow Property -->
+                        <h2>Over Flow Property</h2>
+                        <div id="overflowTest">This text is really long and the height of its container is only 100 pixels. Therefore, a scrollbar is added to help the reader to scroll the content. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.</div>
+
+
+
+                        <!-- Float -->
+                        <h2>Float Property</h2>
+                        <br>
+                        <h2>Without clear</h2>
+						<div class="div11">div1</div>
+						<div class="div22">div2 - Notice that div2 is after div1 in the HTML code. However, since div1 floats to the left, the text in div2 flows around div1.</div>
+						<br><br>
+
+
+						<h2>With clear</h2>
+						<div class="div23">div3</div>
+						<div class="div24">div4 - Here, clear: left; moves div4 down below the floating 	div3. The value "left" clears elements floated to the left. You can also clear 		"right" and "both".</div>
+
+
+
+							<h2>Float Clearfix and without Clearfix</h2>
+						
+
+						
+						<div class="clearfix">
+						  <h2>With Clearfix</h2>
+						  <img class="img22" src="assets/images/klematis4_big (1).jpg" alt="Pineapple" >
+						  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus imperdiet, nulla et dictum interdum...
+						</div>
+
+
+
+						<div class="clearfix1">
+							<h2>Images Side By Side</h2>
+						  <div class="img-container">
+						  <img src="assets/images/img_5terre.jpg" alt="Italy" style="width:100%">
+						  </div>
+						  <div class="img-container">
+						  <img src="assets/images/img_forest.jpg" alt="Forest" style="width:100%">
+						  </div>
+						  <div class="img-container">
+						  <img src="assets/images/img_mountains.jpg" alt="Mountains" style="width:100%">
+						  </div>
+						</div>
+
+						<h2>Equal Height Boxes</h2>
+							
+							<div class="clearfix3">
+							  <div class="box" style="background-color:#bbb">
+							  <h2>Box 1</h2>
+							  <p>Some content, some content, some content</p>
+							  </div>
+							  <div class="box" style="background-color:#ccc">
+							  <h2>Box 2</h2>
+							  <p>Some content, some content, some content</p>
+							  <p>Some content, some content, some content</p>
+							  <p>Some content, some content, some content</p>
+							  </div>
+							</div>
+
+
+
+							<h2>Float Navigation Menu</h2>
+							<ul class="nav-">
+							  <li><a href="#home" class="active">Home</a></li>
+							  <li><a href="#news">News</a></li>
+							  <li><a href="#contact">Contact</a></li>
+							  <li><a href="#about">About</a></li>
+							</ul>
+
+							<!-- Inline Block -->
+
+							<h2>Inline Block</h2>
+							<h2>display: inline</h2>
+								<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="a">Aliquam</span> <span class="a">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+
+								<h2>display: inline-block</h2>
+								<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="b">Aliquam</span> <span class="b">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+
+								<h2>display: block</h2>
+								<div>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum consequat scelerisque elit sit amet consequat. Aliquam erat volutpat. <span class="c">Aliquam</span> <span class="c">venenatis</span> gravida nisl sit amet facilisis. Nullam cursus fermentum velit sed laoreet. </div>
+
+
+								<!-- Center Align Elements -->
+								<h2>Center Align Elements</h2>
+								<div class="center">
+								  <p>Hello World!</p>
+							    </div>
+
+
+								<!-- <div class="right1">
+								  <p>In my younger and more vulnerable years my father gave me some advice that I've been turning over in my mind ever since.</p>
+								</div>
+
+
+								<h2>Center Image</h2>
+								<img class="cen-img" src="assets/images/paris.jpg" alt="Paris" style="width:40% height: auto;"> -->
+
+
+
+
+
+								<!--  Pseudo-element -->
+
+								<h2> Pseudo-element</h2>
+								<p class="intro">This is an introduction.</p>
+								<p>This is a paragraph with some text. A bit more text even.</p>
+
+
+
+								<!-- Opacity -->
+
+								<h2>Opacity</h2>
+								<h1>Image Transparency</h1>
+									<p>The opacity property is often used together with the :hover selector to change the opacity on mouse-over:</p>
+								    <div class="trans">
+										<img src="assets/images/img_forest.jpg" alt="Forest" style="width: 33.3% height: auto;">
+										<img src="assets/images/img_mountains.jpg" alt="Mountains" style="width: 33.3% height: auto;">
+										<img src="assets/images/img_5terre.jpg" alt="Italy" style="width: 33.3% height: auto;">
+									</div> 	
+										
+
+								<!-- 	<div class="opacty">
+										<h2>50% Opacity</h2>
+										<img src="assets/images/img_forest.jpg" alt="Forest" >
+									</div>	 -->
+									<!-- <br><br><br><br><br><br><br><br><br>
+
+ -->
+									<!-- Image with Description -->
+
+									<!-- <h2>Image with Description</h2>
+
+									<div class="gallery">
+									  <a target="_blank" href="assets/images/img_forest.jpg">
+									    <img src="assets/images/img_forest.jpg" alt="Cinque Terre" width="48%" height="auto">
+									  </a>
+									  <div class="desc">Add a description of the image hereAdd a description of the image here
+									  </div>
+									</div>
+
+									<div class="gallery">
+									  <a target="_blank" href="assets/images/img_5terre.jpg">
+									    <img src="assets/images/img_5terre.jpg" alt="Forest" width="48%" height="auto">
+									  </a>
+									  <div class="desc">Add a description of the image hereAdd a description of the image here</div>
+									</div> -->
+
+									
+
+									<!-- Form -->
+									 <h2>Form</h2>
+
+								<div class="container">
+								  <form >
+								  <div class="row">
+								    <div class="col-25">
+								      <label for="fname">First Name</label>
+								    </div>
+								    <div class="col-75">
+								      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+								    </div>
+								  </div>
+								  <div class="row">
+								    <div class="col-25">
+								      <label for="lname">Last Name</label>
+								    </div>
+								    <div class="col-75">
+								      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+								    </div>
+								  </div>
+								  <div class="row">
+								    <div class="col-25">
+								      <label for="country">Country</label>
+								    </div>
+								    <div class="col-75">
+								      <select id="country" name="country">
+								        <option value="australia">Australia</option>
+								        <option value="canada">Canada</option>
+								        <option value="usa">USA</option>
+								      </select>
+								    </div>
+								  </div>
+								  <div class="row">
+								    <div class="col-25">
+								      <label for="subject">Subject</label>
+								    </div>
+								    <div class="col-75">
+								      <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+								    </div>
+								  </div>
+								  <div class="row">
+								    <input type="submit" value="Submit">
+								  </div>
+								  </form>
+								</div>		
+
+
+
+								<h2>Image with Description</h2>
+									
+									<div class="gallery">
+									  <a target="_blank" href="assets/images/img_forest.jpg">
+									    <img src="assets/images/img_forest.jpg" alt="Cinque Terre" width="48%" height="auto">
+									  </a>
+									  <div class="desc">Add a description of the image hereAdd a description of the image here
+									  </div>
+									</div>
+
+									<div class="gallery">
+									  <a target="_blank" href="assets/images/img_5terre.jpg">
+									    <img src="assets/images/img_5terre.jpg" alt="Forest" width="48%" height="auto">
+									  </a>
+									  <div class="desc">Add a description of the image hereAdd a description of the image here</div>
+									</div> 
+
+
+
+
 </body>
 </html>
